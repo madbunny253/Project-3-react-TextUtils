@@ -7,10 +7,10 @@ export default function About(props) {
     return (
         <div className='container' style={myStyle}>
             <h1 className='my-2'>About us</h1>
-            <div className="accordion" id="accordionExample">
+            <div className="accordion" id="accordionExample" >
                 <div className="accordion-item">
                     <h2 className="accordion-header">
-                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={{backgroundColor : '#fffacd'}}>
                             <strong>Analyse your text</strong>
                         </button>
                     </h2>
@@ -22,7 +22,7 @@ export default function About(props) {
                 </div>
                 <div className="accordion-item">
                     <h2 className="accordion-header">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style={{backgroundColor : '#fffacd'}}>
                             <strong>Free to use</strong>
                         </button>
                     </h2>
@@ -34,7 +34,7 @@ export default function About(props) {
                 </div>
                 <div className="accordion-item">
                     <h2 className="accordion-header">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style={{backgroundColor : '#fffacd'}}>
                             <strong>Browser Compatible</strong>
                         </button>
                     </h2>
